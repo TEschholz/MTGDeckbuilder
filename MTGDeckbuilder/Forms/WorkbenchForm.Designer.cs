@@ -45,21 +45,22 @@
             this.label14 = new System.Windows.Forms.Label();
             this.label15 = new System.Windows.Forms.Label();
             this.label16 = new System.Windows.Forms.Label();
+            this.button3 = new System.Windows.Forms.Button();
             this.label17 = new System.Windows.Forms.Label();
             this.label18 = new System.Windows.Forms.Label();
             this.label19 = new System.Windows.Forms.Label();
             this.button1 = new System.Windows.Forms.Button();
+            this.label22 = new System.Windows.Forms.Label();
+            this.label24 = new System.Windows.Forms.Label();
+            this.button2 = new System.Windows.Forms.Button();
+            this.label25 = new System.Windows.Forms.Label();
             this.label20 = new System.Windows.Forms.Label();
             this.label21 = new System.Windows.Forms.Label();
-            this.label22 = new System.Windows.Forms.Label();
             this.label23 = new System.Windows.Forms.Label();
-            this.label24 = new System.Windows.Forms.Label();
-            this.label25 = new System.Windows.Forms.Label();
             this.label26 = new System.Windows.Forms.Label();
             this.label27 = new System.Windows.Forms.Label();
             this.label28 = new System.Windows.Forms.Label();
-            this.button2 = new System.Windows.Forms.Button();
-            this.button3 = new System.Windows.Forms.Button();
+            this.button4 = new System.Windows.Forms.Button();
             this.flowLayoutPanel1.SuspendLayout();
             this.SuspendLayout();
             // 
@@ -90,6 +91,7 @@
             this.flowLayoutPanel1.Controls.Add(this.label24);
             this.flowLayoutPanel1.Controls.Add(this.button2);
             this.flowLayoutPanel1.Controls.Add(this.label25);
+            this.flowLayoutPanel1.Controls.Add(this.button4);
             this.flowLayoutPanel1.Controls.Add(this.label20);
             this.flowLayoutPanel1.Controls.Add(this.label21);
             this.flowLayoutPanel1.Controls.Add(this.label23);
@@ -246,6 +248,15 @@
             this.label16.TabIndex = 21;
             this.label16.Text = "Dies ist ein Test";
             // 
+            // button3
+            // 
+            this.button3.Location = new System.Drawing.Point(179, 29);
+            this.button3.Name = "button3";
+            this.button3.Size = new System.Drawing.Size(75, 130);
+            this.button3.TabIndex = 40;
+            this.button3.Text = "button3";
+            this.button3.UseVisualStyleBackColor = true;
+            // 
             // label17
             // 
             this.label17.AutoSize = true;
@@ -282,24 +293,6 @@
             this.button1.Text = "button1";
             this.button1.UseVisualStyleBackColor = true;
             // 
-            // label20
-            // 
-            this.label20.AutoSize = true;
-            this.label20.Location = new System.Drawing.Point(172, 205);
-            this.label20.Name = "label20";
-            this.label20.Size = new System.Drawing.Size(367, 13);
-            this.label20.TabIndex = 33;
-            this.label20.Text = "111111111111111111111111111111111111111111111111111111111111";
-            // 
-            // label21
-            // 
-            this.label21.AutoSize = true;
-            this.label21.Location = new System.Drawing.Point(545, 205);
-            this.label21.Name = "label21";
-            this.label21.Size = new System.Drawing.Size(82, 13);
-            this.label21.TabIndex = 32;
-            this.label21.Text = "Dies ist ein Test";
-            // 
             // label22
             // 
             this.label22.AutoSize = true;
@@ -308,15 +301,6 @@
             this.label22.Size = new System.Drawing.Size(82, 13);
             this.label22.TabIndex = 31;
             this.label22.Text = "Dies ist ein Test";
-            // 
-            // label23
-            // 
-            this.label23.AutoSize = true;
-            this.label23.Location = new System.Drawing.Point(633, 205);
-            this.label23.Name = "label23";
-            this.label23.Size = new System.Drawing.Size(82, 13);
-            this.label23.TabIndex = 30;
-            this.label23.Text = "Dies ist ein Test";
             // 
             // label24
             // 
@@ -327,6 +311,15 @@
             this.label24.TabIndex = 37;
             this.label24.Text = "zweite Zeile";
             // 
+            // button2
+            // 
+            this.button2.Location = new System.Drawing.Point(3, 208);
+            this.button2.Name = "button2";
+            this.button2.Size = new System.Drawing.Size(75, 114);
+            this.button2.TabIndex = 39;
+            this.button2.Text = "button2";
+            this.button2.UseVisualStyleBackColor = true;
+            // 
             // label25
             // 
             this.label25.AutoSize = true;
@@ -335,6 +328,33 @@
             this.label25.Size = new System.Drawing.Size(82, 13);
             this.label25.TabIndex = 36;
             this.label25.Text = "Dies ist ein Test";
+            // 
+            // label20
+            // 
+            this.label20.AutoSize = true;
+            this.label20.Location = new System.Drawing.Point(253, 205);
+            this.label20.Name = "label20";
+            this.label20.Size = new System.Drawing.Size(367, 13);
+            this.label20.TabIndex = 33;
+            this.label20.Text = "111111111111111111111111111111111111111111111111111111111111";
+            // 
+            // label21
+            // 
+            this.label21.AutoSize = true;
+            this.label21.Location = new System.Drawing.Point(626, 205);
+            this.label21.Name = "label21";
+            this.label21.Size = new System.Drawing.Size(82, 13);
+            this.label21.TabIndex = 32;
+            this.label21.Text = "Dies ist ein Test";
+            // 
+            // label23
+            // 
+            this.label23.AutoSize = true;
+            this.label23.Location = new System.Drawing.Point(714, 205);
+            this.label23.Name = "label23";
+            this.label23.Size = new System.Drawing.Size(82, 13);
+            this.label23.TabIndex = 30;
+            this.label23.Text = "Dies ist ein Test";
             // 
             // label26
             // 
@@ -363,23 +383,14 @@
             this.label28.TabIndex = 38;
             this.label28.Text = "zweite Zeile";
             // 
-            // button2
+            // button4
             // 
-            this.button2.Location = new System.Drawing.Point(3, 208);
-            this.button2.Name = "button2";
-            this.button2.Size = new System.Drawing.Size(75, 114);
-            this.button2.TabIndex = 39;
-            this.button2.Text = "button2";
-            this.button2.UseVisualStyleBackColor = true;
-            // 
-            // button3
-            // 
-            this.button3.Location = new System.Drawing.Point(179, 29);
-            this.button3.Name = "button3";
-            this.button3.Size = new System.Drawing.Size(75, 130);
-            this.button3.TabIndex = 40;
-            this.button3.Text = "button3";
-            this.button3.UseVisualStyleBackColor = true;
+            this.button4.Location = new System.Drawing.Point(172, 208);
+            this.button4.Name = "button4";
+            this.button4.Size = new System.Drawing.Size(75, 23);
+            this.button4.TabIndex = 41;
+            this.button4.Text = "button4";
+            this.button4.UseVisualStyleBackColor = true;
             // 
             // WorkbenchForm
             // 
@@ -430,5 +441,6 @@
         private System.Windows.Forms.Label label26;
         private System.Windows.Forms.Label label27;
         private System.Windows.Forms.Label label28;
+        private System.Windows.Forms.Button button4;
     }
 }
