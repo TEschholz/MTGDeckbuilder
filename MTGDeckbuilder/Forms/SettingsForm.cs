@@ -82,6 +82,7 @@ namespace MTGDeckbuilder.Forms
                 }
             }
 
+            //Json mit allen Karten wird erstellt
             File.WriteAllText(AllCardsPath, JsonConvert.SerializeObject(allCardsList.ToArray(), Formatting.Indented));
         }
 
