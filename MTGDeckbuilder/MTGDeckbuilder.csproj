@@ -160,5 +160,11 @@
   <ItemGroup>
     <Folder Include="Icons\" />
   </ItemGroup>
+  <ItemGroup>
+    <ProjectReference Include="..\CustomControlTest\CustomControlTest.csproj">
+      <Project>{AEEEBAA2-8703-4346-BFE5-D202F6662F86}</Project>
+      <Name>CustomControlTest</Name>
+    </ProjectReference>
+  </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
 </Project>

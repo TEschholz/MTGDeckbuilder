@@ -8,14 +8,13 @@ using System.Text;
 using System.Threading.Tasks;
 using System.Windows.Forms;
 
-namespace MTGDeckbuilder.Forms
+namespace CustomControlTest
 {
-    public partial class WorkbenchForm : Form
+    public partial class Form1 : Form
     {
-        public WorkbenchForm()
+        public Form1()
         {
             InitializeComponent();
-            
         }
     }
 }
