@@ -35,7 +35,8 @@ namespace MTGDeckbuilder.Forms
                 //Brauche irgendwie noch einen Zentralen Ort, wo ich alles mache.
                 
                     //Vielleicht auch eine .config Datei mit den Grundeinstellungen machen und die immer laden.
-                    //Beim ersten Starten, also wenn keine .config da ist oder diese Fehler hat, Grundeinstellungen vorgeben.
+                    //Beim ersten Starten, also wenn keine .config da ist oder diese Fehler hat, Grundeinstellungen vorgeben 
+                    //oder vorher in einem INSTALLER konfigurieren lassen.
             }
         }
 
