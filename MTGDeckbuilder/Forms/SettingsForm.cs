@@ -42,7 +42,7 @@ namespace MTGDeckbuilder.Forms
 
         private void btnDownload_Click(object sender, EventArgs e)
         {
-            var requestUrl = BaseUrl + AllPrintingsUrl;
+            const string requestUrl = BaseUrl + AllPrintingsUrl;
             using (var wc = new WebClient())
             {
                 wc.DownloadProgressChanged += wc_DownloadProgressChanged;
